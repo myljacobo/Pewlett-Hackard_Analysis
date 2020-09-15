@@ -12,19 +12,19 @@ The purpose of this analysis is to provide management with the number of retirin
 
 - 1. Some employees may have had multiple titles in the database due to promotions and can be seen in the first table.
 
-    - ![duplicates](url)
+    - ![duplicates](https://github.com/myljacobo/Pewlett-Hackard_Analysis/blob/master/Queries/duplicates.png?raw=true)
 
 - 2. The DISTINCT ON statement helped to remove the duplicates and display a proper table with the most recent title of each employee.
 
-    - ![duplicates_removed](url)
+    - ![duplicates_removed](https://github.com/myljacobo/Pewlett-Hackard_Analysis/blob/master/Queries/duplicates_removed.png?raw=true)
 
 - 3. A count was able to be applied to the number of employees by their most recent job title who are about to retire. This table shows that the majority of positions that will need to be filled are Senior positions.
 
-    - ![retiring_counts](url)
+    - ![retiring_counts](https://github.com/myljacobo/Pewlett-Hackard_Analysis/blob/master/Queries/retiring_counts.png?raw=true)
 
 - 4. Only a certain amount of all the retirement-ready employees are eligible to mentor next generation Pewlett Hackard employees. 1549 employees born in 1965 are eligible. 
 
-    - ![mentorship](url)
+    - ![mentorship](https://github.com/myljacobo/Pewlett-Hackard_Analysis/blob/master/Queries/mentorship.png?raw=true)
 
 
 ## Summary
@@ -35,5 +35,5 @@ The purpose of this analysis is to provide management with the number of retirin
 - There are a total of 1,549 retirement-ready employees who are qualified to mentor the next generation of Pewlett Hackard employees. If each of those 1,549 employees were to mentor about 58 employees each, that would equal to the amount of the roughly 90,000 that will be moving into those positions. I believe that is a significant amount of employees to mentor and maybe not everyone will get enough one on one mentorship but if a consistent group mentoring will be conducted then I feel that it can be accomplished. 
 
 Of the employees qualified to mentor the next generation, the number is also proportionate to retiring titles. More than half of the mentoring eligible employees are from Senior positions such as Senior Engineer that has a total of 529 and Senior Staff that has a total of 569. 
-![senior_engineer](url) ![senior_staff](url)
+![senior_engineer](https://github.com/myljacobo/Pewlett-Hackard_Analysis/blob/master/Queries/senior_engineer.png?raw=true) ![senior_staff](https://github.com/myljacobo/Pewlett-Hackard_Analysis/blob/master/Queries/senior_staff.png?raw=true)
 
